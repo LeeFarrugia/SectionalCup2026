@@ -31,7 +31,11 @@ st.markdown(
   unsafe_allow_html=True
 )
 
-st.title("Sectional Cup 2026")
+st.markdown(
+  "<h1 style='text-align: center;'>Sectional Cup 2026</h1>",
+  unsafe_allow_html=True
+)
+
 
 # Section Selection UI
 selected_section = st.session_state.get("selected_section")
