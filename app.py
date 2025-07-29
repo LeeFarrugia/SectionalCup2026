@@ -21,7 +21,7 @@ if "selected" in query_params:
   st.session_state["selected_section"] = query_params["selected"][0]
 
 # Header
-st.image("https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/326566525_2386990981461745_2123444378451707595_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kiCSbvmQTIwQ7kNvwFte-mX&_nc_oc=Adn9DlDwX9zd2aQVVnwV2IxhX7zQydPdYWjsYlzNiltR_I59P-Q25ErVhUAlGKA1MXs&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&_nc_gid=y64pWyqNmRZt77mSH5bhMQ&oh=00_AfSBRL3zKteTkCRSFvn5ZKBtPyI_8LtV9YF_YE4WzCRYGw&oe=688E6107", width=200)
+st.image("https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/326566525_2386990981461745_2123444378451707595_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kiCSbvmQTIwQ7kNvwFte-mX&_nc_oc=Adn9DlDwX9zd2aQVVnwV2IxhX7zQydPdYWjsYlzNiltR_I59P-Q25ErVhUAlGKA1MXs&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&_nc_gid=y64pWyqNmRZt77mSH5bhMQ&oh=00_AfSBRL3zKteTkCRSFvn5ZKBtPyI_8LtV9YF_YE4WzCRYGw&oe=688E6107", width=200, unsafe_allow_html=True)
 st.title("Sectional Cup 2026")
 
 # Section Selection UI
@@ -40,7 +40,7 @@ def section_button(icon_url, label):
     text-decoration: none;
     font-size: 20px;
   ">
-    <img src="{icon_url}" width="30" style="vertical-align: middle; margin-right: 10px;">
+    <img src="{icon_url}" height="30" style="vertical-align: middle; margin-right: 10px;">
     {label}
   </a>
   """
