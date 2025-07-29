@@ -15,7 +15,7 @@ SECTION_ICONS = {
 st.set_page_config(page_title="Sectional Cup 2026", layout="centered")
 
 # Load query parameters
-query_params = st.st.query_params()
+query_params = st.query_params()
 qr_id = query_params.get("qr_id", ["qr1"])[0]
 if "selected" in query_params:
   st.session_state["selected_section"] = query_params["selected"][0]
